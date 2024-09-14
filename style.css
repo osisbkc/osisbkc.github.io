@@ -1,0 +1,130 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0a202e;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+.header {
+  background-image: url(1.png);
+  background-size: cover;
+  color: #0d2331;
+  padding-top: 100px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+img {
+  max-width: 24px;
+  height: auto;
+}
+/* Logo Styles */
+.header img {
+  max-width: 200px;
+  height: auto;
+  align-items: center;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 20px auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+h1:hover{
+  color: #00eeff;
+}
+/* Title Styles */
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Emblem Styles */
+.emblem {
+  float: right;
+  margin-top: 10px;
+}
+
+.Person {
+text-align: center;
+padding: 50px;
+}
+
+.bkc {
+  max-width: 85px;
+  height: auto;
+}
+
+.bkc:hover {
+  filter:opacity(50%) 
+
+}
+/* Instructional Text Styles */
+p {
+  font-size: 18px;
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Button Styles */
+.button:hover {
+  background-color:#123042be;
+}
+.buttons {
+  text-align: center; /* Center the buttons horizontally */
+  padding: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  align-items: center; /* Center text vertically */
+
+}
+
+.purple-button {
+  background-color: #003780;
+  color: #fff;
+}
+
+.blue-button {
+  background-color: #008080;
+  color: #fff;
+}
+
+.green-button {
+  background-color: #008080;
+  color: #fff;
+}
+
+.dark-green-button {
+  background-color: #008080;
+  color: #fff;
+}
+
+.teal-button {
+  background-color: #008080;
+  color: #fff;
+}
+
+.button img {
+  margin-right: 10px; /* Add space between icon and text */
+}
